@@ -1,10 +1,11 @@
 import React from "react";
 import Cards from "./components/Cards";
+import Official from "./components/Official";
 
 const Homepage = () => {
   return (
     <div>
-              {/* <img src="https://img.freepik.com/free-vector/gods-hand-vector-sticker-creation-of-adam-famous-painting-remixed-from-artworks-by-michelangelo-buonarroti_53876-125649.jpg" alt="#" class="help-img"/> */}
+      <Official />
       <Cards />
     </div>
   );
