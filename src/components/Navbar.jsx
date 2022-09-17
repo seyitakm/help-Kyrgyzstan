@@ -10,7 +10,7 @@ const Navbar = () => {
           <div className="nav-title">Pray for Kyrgyzstan</div>
         </div>
         <div className="nav-btn">
-          <label for="nav-check">
+          <label htmlFor="nav-check">
             <span></span>
             <span></span>
             <span></span>
