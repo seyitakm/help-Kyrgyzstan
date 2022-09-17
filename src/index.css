@@ -3,3 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  background: rgb(233, 245, 201);
+}

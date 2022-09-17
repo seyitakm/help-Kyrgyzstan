@@ -4,7 +4,6 @@ import "./Styles/Navbar.css";
 const Navbar = () => {
   return (
     <div>
-                    <img src="https://img.freepik.com/free-vector/gods-hand-vector-sticker-creation-of-adam-famous-painting-remixed-from-artworks-by-michelangelo-buonarroti_53876-125649.jpg" alt="#" class="help-img"/>
       <div className="nav">
         <input type="checkbox" id="nav-check" />
         <div className="nav-header">
@@ -20,22 +19,10 @@ const Navbar = () => {
 
         <div className="nav-links">
           <a href="//github.io/jo_geek" target="_blank">
-            Github
-          </a>
-          <a href="http://stackoverflow.com/users/4084003/" target="_blank">
-            Stackoverflow
-          </a>
-          <a
-            href="https://in.linkedin.com/in/jonesvinothjoseph"
-            target="_blank"
-          >
-            LinkedIn
-          </a>
-          <a href="https://codepen.io/jo_Geek/" target="_blank">
-            Codepen
+            push
           </a>
           <a href="https://jsfiddle.net/user/jo_Geek/" target="_blank">
-            JsFiddle
+            pop
           </a>
         </div>
       </div>
