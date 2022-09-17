@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="nav">
         <input type="checkbox" id="nav-check" />
         <div className="nav-header">
-          <div className="nav-title">JoGeek</div>
+          <div className="nav-title">Pray for Kyrgyzstan</div>
         </div>
         <div className="nav-btn">
           <label for="nav-check">
