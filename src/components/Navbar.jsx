@@ -4,6 +4,7 @@ import "./Styles/Navbar.css";
 const Navbar = () => {
   return (
     <div>
+                    <img src="https://img.freepik.com/free-vector/gods-hand-vector-sticker-creation-of-adam-famous-painting-remixed-from-artworks-by-michelangelo-buonarroti_53876-125649.jpg" alt="#" class="help-img"/>
       <div className="nav">
         <input type="checkbox" id="nav-check" />
         <div className="nav-header">

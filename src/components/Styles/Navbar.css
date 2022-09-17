@@ -1,7 +1,7 @@
 .nav {
   height: 50px;
   width: 100%;
-  background-color: #4d4d4d;
+  background-color: #803535;
   position: relative;
 }
 
@@ -86,4 +86,10 @@
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
+}
+
+.help-img{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
 }

@@ -7,7 +7,7 @@ const Cards = () => {
         <div className="card">USDT TRC20</div>
         <div className="card">USDT BEP-20</div>
         <div className="card">USDT ETH</div>
-        <div className="card"></div>
+        <div className="card">hello</div>
       </div>
     </div>
   );
