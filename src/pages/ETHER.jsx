@@ -7,12 +7,13 @@ const ETHER = () => {
     <div className="mainDetails">
       <div className="widthDetails">
         <div className="cardDetails">
-          ether
-          <div>
             <img src={qr} alt="qrcode" />
-            <label htmlFor="address"></label>
-            <p id="address">0xaC4bCb4142286332430FDfa63d1fdaC7062285A3</p>
-            <button>copy address</button>
+          <div className="imgDetails">
+            <h3>
+            Ethereum Address
+            </h3>
+            <p className="asdf pishka">0xaC4bCb4142286332430FDfa63d1fdaC7062285A3</p>
+            <button className="asdf button">copy address</button>
           </div>
         </div>
       </div>

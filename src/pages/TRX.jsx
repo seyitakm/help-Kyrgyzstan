@@ -7,12 +7,11 @@ const TRX = () => {
     <div className="mainDetails">
       <div className="widthDetails">
         <div className="cardDetails">
-          trx
-          <div>
             <img src={qr} alt="qrcode" />
-            <label htmlFor="address"></label>
-            <p id="address">TEAGNjruQU2YyDv69qraytuWf36fjHnfBA</p>
-            <button>copy address</button>
+          <div className="imgDetails">
+            <h3>TRX Address</h3>
+            <p className="asdf pishka">TEAGNjruQU2YyDv69qraytuWf36fjHnfBA</p>
+            <button className="asdf button">copy address</button>
           </div>
         </div>
       </div>

@@ -7,12 +7,11 @@ const RIPPLE = () => {
     <div className="mainDetails">
       <div className="widthDetails">
         <div className="cardDetails">
-          ripple
-          <div>
             <img src={qr} alt="qrcode" />
-            <label htmlFor="address"></label>
-            <p id="address">rhh7ytELXgTRvai2FzDENYffFSfEaHK5v9</p>
-            <button>copy address</button>
+          <div className="imgDetails">
+            <h3>Ripple Address</h3>
+            <p className="asdf pishka">rhh7ytELXgTRvai2FzDENYffFSfEaHK5v9</p>
+            <button className="asdf button">copy address</button>
           </div>
         </div>
       </div>
