@@ -1,5 +1,6 @@
 import React from "react";
 import qr from "../components/QRs/ripple.jpg";
+import "../components/Styles/CardDetails.css";
 
 const RIPPLE = () => {
   return (

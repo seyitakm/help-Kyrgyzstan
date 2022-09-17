@@ -1,5 +1,6 @@
 import React from "react";
 import qr from "../components/QRs/usdttrc20.jpg";
+import "../components/Styles/CardDetails.css";
 
 const USDTTRC20 = () => {
   return (

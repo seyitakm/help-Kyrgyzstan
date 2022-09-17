@@ -1,5 +1,6 @@
 import React from "react";
 import qr from "../components/QRs/trx.jpg";
+import "../components/Styles/CardDetails.css";
 
 const TRX = () => {
   return (
