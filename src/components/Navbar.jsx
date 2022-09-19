@@ -21,14 +21,14 @@ const Navbar = () => {
           </label>
         </div>
 
-        {/* <div className="nav-links">
-          <a href="#" target="_blank" onClick={() => navigate("")}>
+        <div className="nav-links">
+          <a target="_blank" onClick={() => navigate("/bitcoin")}>
             crypto
           </a>
           <a href="#" target="_blank">
             visa
           </a>
-        </div> */}
+        </div>
       </div>
     </div>
   );
