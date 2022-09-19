@@ -19,7 +19,16 @@ const BNB = () => {
             <p className="asdf pishka">
               bnb1fw7hu4p2n04u7e23pwemykuy7dq6anwgmugfdw
             </p>
-            <button className="asdf button">copy address</button>
+            <button
+              className="asdf button"
+              onClick={() => {
+                navigator.clipboard.writeText(
+                  "bnb1fw7hu4p2n04u7e23pwemykuy7dq6anwgmugfdw"
+                );
+              }}
+            >
+              copy address
+            </button>
           </div>
         </div>
       </div>

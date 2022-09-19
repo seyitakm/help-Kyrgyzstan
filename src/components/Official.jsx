@@ -26,8 +26,16 @@ const Official = () => {
           <img style={{ width: "40%" }} src={batkenVisa2} alt="b" />
         </div>
 
-        <div style={{ marginTop: "2%" }}>
-          <p style={{ display: "flex", flexWrap: "wrap", fontSize: "25px" }}>
+        <div style={{ marginTop: "2%", padding: "25px" }}>
+          <p
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              fontSize: "25px",
+              fontFamily: "Oxygen",
+              fontWeight: 600,
+            }}
+          >
             <strong>
               In connection with the situation on the Kyrgyz-Tajik border of the
               Batken region of the country, we inform you about the details for

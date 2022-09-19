@@ -10,13 +10,14 @@ const Sources = () => {
           <a href="https://t.me/helplyrgyzstan">
             <button>TG channel</button>
           </a>
+          <hr />
         </div>
       </div>
       <div className="sourceAllMain">
         <div className="sourceAll">
           <h3>Actual links</h3>
-          <ul>
-            <h4>news:</h4>
+          <ul style={{ marginTop: "1%" }}>
+            <h4>news: </h4>
             <li>
               Kloop Media{" "}
               <a href="https://kloop.kg/blog/category/cap-english/">

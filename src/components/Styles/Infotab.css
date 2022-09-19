@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Oxygen:wght@300&display=swap");
+
+.infoTabMain {
+  width: 100%;
+  margin-top: 3%;
+  background-color: #191f43;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.infoTab {
+  width: 90%;
+  padding: 20px;
+}
+.infoTab p {
+  margin-top: 2%;
+  font-size: 20px;
+  color: white;
+  font-family: "Oxygen";
+  padding: 20px;
+}
+.infoTab h1 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  font-family: "Cabin";
+}

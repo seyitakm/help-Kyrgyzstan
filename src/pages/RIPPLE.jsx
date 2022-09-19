@@ -17,7 +17,16 @@ const RIPPLE = () => {
             />
             <h3>Ripple Address</h3>
             <p className="asdf pishka">rhh7ytELXgTRvai2FzDENYffFSfEaHK5v9</p>
-            <button className="asdf button">copy address</button>
+            <button
+              className="asdf button"
+              onClick={() => {
+                navigator.clipboard.writeText(
+                  "rhh7ytELXgTRvai2FzDENYffFSfEaHK5v9"
+                );
+              }}
+            >
+              copy address
+            </button>
           </div>
         </div>
       </div>

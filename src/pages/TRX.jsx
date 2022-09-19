@@ -30,7 +30,16 @@ const TRX = () => {
             />
             <h3>TRX Address</h3>
             <p className="asdf pishka">TEAGNjruQU2YyDv69qraytuWf36fjHnfBA</p>
-            <button className="asdf button">copy address</button>
+            <button
+              className="asdf button"
+              onClick={() => {
+                navigator.clipboard.writeText(
+                  "TEAGNjruQU2YyDv69qraytuWf36fjHnfBA"
+                );
+              }}
+            >
+              copy address
+            </button>
           </div>
         </div>
       </div>

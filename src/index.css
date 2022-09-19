@@ -5,8 +5,12 @@
 }
 
 body {
-  background: rgb(223, 224, 222);
+  background: rgb(232, 233, 232);
 }
 .donateH2 {
   font-size: 50px;
+  font-family: "Oxygen";
+}
+.donateP {
+  font-family: "Oxygen";
 }

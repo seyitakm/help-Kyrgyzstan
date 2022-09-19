@@ -10,7 +10,7 @@ const Navbar = () => {
         <input type="checkbox" id="nav-check" />
         <div className="nav-header">
           <div onClick={() => navigate("/")} className="nav-title">
-            Donate
+            #KyrgyzstanUnderAttack🇰🇬
           </div>
         </div>
         <div className="nav-btn">
@@ -21,14 +21,14 @@ const Navbar = () => {
           </label>
         </div>
 
-        <div className="nav-links">
+        {/* <div className="nav-links">
           <a href="#" target="_blank" onClick={() => navigate("")}>
             crypto
           </a>
           <a href="#" target="_blank">
             visa
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -2,8 +2,10 @@ import React from "react";
 import "../components/Styles/CardDetails.css";
 import qr from "../components/QRs/btc.jpg";
 import btc from "../components/icons/Bitcoin.png";
+import { useState } from "react";
 
 const BITCOIN = () => {
+  //   const { p } = useState();
   return (
     <div className="mainDetails">
       <div className="widthDetails">
@@ -19,7 +21,16 @@ const BITCOIN = () => {
             <p className="asdf pishka">
               bc1qav7emgpgcejejuytk8xrkdmn4a8gw4cwlv342w
             </p>
-            <button className="asdf button">copy address</button>
+            <button
+              className="asdf button"
+              onClick={() => {
+                navigator.clipboard.writeText(
+                  "bc1qav7emgpgcejejuytk8xrkdmn4a8gw4cwlv342w"
+                );
+              }}
+            >
+              copy address
+            </button>
           </div>
         </div>
       </div>

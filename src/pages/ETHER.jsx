@@ -19,7 +19,16 @@ const ETHER = () => {
             <p className="asdf pishka">
               0xaC4bCb4142286332430FDfa63d1fdaC7062285A3
             </p>
-            <button className="asdf button">copy address</button>
+            <button
+              className="asdf button"
+              onClick={() => {
+                navigator.clipboard.writeText(
+                  "0xaC4bCb4142286332430FDfa63d1fdaC7062285A3"
+                );
+              }}
+            >
+              copy address
+            </button>
           </div>
         </div>
       </div>
