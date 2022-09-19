@@ -1,5 +1,6 @@
 import React from "react";
-import batken from "../components/icons/BatkenBeneficiary.jpg";
+import batkenVisa from "../components/icons/BatkenBeneficiary.jpg";
+import batkenVisa2 from "../components/icons/BatkenBeneficiary2.jpg";
 
 const Official = () => {
   return (
@@ -7,14 +8,25 @@ const Official = () => {
       <div
         style={{
           display: "flex",
+          flexDirection: "column",
           justifyContent: "space-between",
-          alignItems: "start",
+          alignItems: "center",
           width: "90%",
-          flexWrap: "wrap",
+          //   flexWrap: "wrap",
         }}
       >
-        <img style={{ width: "400px" }} src={batken} alt="b" />
-        <div style={{ width: "70%" }}>
+        <div
+          style={{
+            display: "flex",
+            // flexDirection: "row",
+            justifyContent: "space-between",
+          }}
+        >
+          <img style={{ width: "40%" }} src={batkenVisa} alt="b" />
+          <img style={{ width: "40%" }} src={batkenVisa2} alt="b" />
+        </div>
+
+        <div style={{ marginTop: "2%" }}>
           <p style={{ display: "flex", flexWrap: "wrap", fontSize: "25px" }}>
             <strong>
               In connection with the situation on the Kyrgyz-Tajik border of the

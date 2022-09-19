@@ -11,7 +11,7 @@ const TRX = () => {
       "https://apilist.tronscan.org/api/account?address=TEAGNjruQU2YyDv69qraytuWf36fjHnfBA"
     );
     res.data.balances.forEach((i) => {
-      return setBalance(i.amount);
+      console.log(i);
     });
   }
   getAccount();
@@ -20,7 +20,7 @@ const TRX = () => {
       <div className="widthDetails">
         <div className="cardDetails">
           {balance}
-            <img src={qr} alt="qrcode" />
+          <img src={qr} alt="qrcode" />
           <div className="imgDetails">
             <h3>TRX Address</h3>
             <p className="asdf pishka">TEAGNjruQU2YyDv69qraytuWf36fjHnfBA</p>

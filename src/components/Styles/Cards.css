@@ -1,5 +1,5 @@
 .mainCard {
-  margin-top: 7%;
+  margin-top: 1%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -25,12 +25,27 @@
   border-radius: 5%;
   background-color: rgb(255, 255, 255);
   margin-top: 1%;
+  cursor: pointer;
 }
 .card:hover {
-  border-bottom: 5px solid coral;
+  border: 2px solid coral;
 }
 .card img {
   margin-bottom: 4%;
   width: 60px;
   height: 60px;
+}
+.payBtn {
+  margin-top: 40%;
+  width: 250px;
+  height: 40px;
+  background-color: white;
+  color: rgb(65, 179, 65);
+  border: 1px solid rgb(59, 172, 59);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.payBtn:hover {
+  background-color: rgb(82, 199, 82);
+  color: white;
 }

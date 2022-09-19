@@ -1,13 +1,17 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./Styles/Navbar.css";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <div className="nav">
         <input type="checkbox" id="nav-check" />
         <div className="nav-header">
-          <div className="nav-title">Pray for Kyrgyzstan</div>
+          <div onClick={() => navigate("/")} className="nav-title">
+            Donate
+          </div>
         </div>
         <div className="nav-btn">
           <label htmlFor="nav-check">
@@ -18,11 +22,11 @@ const Navbar = () => {
         </div>
 
         <div className="nav-links">
-          <a href="//github.io/jo_geek" target="_blank">
-            push
+          <a href="#" target="_blank" onClick={() => navigate("")}>
+            crypto
           </a>
-          <a href="https://jsfiddle.net/user/jo_Geek/" target="_blank">
-            pop
+          <a href="#" target="_blank">
+            visa
           </a>
         </div>
       </div>

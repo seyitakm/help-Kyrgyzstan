@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   background: rgb(223, 224, 222);
+}
+.donateH2 {
+  font-size: 50px;
 }
