@@ -1,6 +1,7 @@
 import React from "react";
 import Cards from "./components/Cards";
 import Official from "./components/Official";
+import Sources from "./components/Sources";
 
 const Homepage = () => {
   return (
@@ -13,9 +14,10 @@ const Homepage = () => {
         }}
       >
         <h2 className="donateH2">Donate via cryptocurrency</h2>
-        <p className="donateP">choose the cryptocurrency and click to pay</p>
+        <p className="donateP">choose the cryptocurrency and click to DONATE</p>
       </div>
       <Cards />
+      <Sources />
       <div
         style={{
           display: "flex",

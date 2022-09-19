@@ -3,6 +3,7 @@ import React from "react";
 import { useState } from "react";
 import qr from "../components/QRs/trx.jpg";
 import "../components/Styles/CardDetails.css";
+import trx from "../components/icons/TRON.png";
 
 const TRX = () => {
   const { balance, setBalance } = useState("");
@@ -22,6 +23,11 @@ const TRX = () => {
           {balance}
           <img src={qr} alt="qrcode" />
           <div className="imgDetails">
+            <img
+              style={{ width: "60px", height: "60px" }}
+              src={trx}
+              alt="icon"
+            />
             <h3>TRX Address</h3>
             <p className="asdf pishka">TEAGNjruQU2YyDv69qraytuWf36fjHnfBA</p>
             <button className="asdf button">copy address</button>

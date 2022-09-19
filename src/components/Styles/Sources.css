@@ -1,0 +1,55 @@
+.sourceMain {
+  background-color: white;
+}
+
+.reportsMain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+}
+.reports {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+.reports p {
+  font-size: 24px;
+}
+.reports button {
+  width: 240px;
+  height: 40px;
+  background-color: white;
+  color: rgb(65, 141, 179);
+  border: 1px solid rgb(65, 141, 179);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.reports button:hover {
+  background-color: rgb(65, 141, 179);
+  color: white;
+}
+.sourceAllMain {
+  width: 100%;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+}
+.sourceAll {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
