@@ -29,7 +29,9 @@ const BITCOIN = () => {
                 );
               }}
             >
+              <span className="top">
               copy address
+              </span>
             </button>
           </div>
         </div>

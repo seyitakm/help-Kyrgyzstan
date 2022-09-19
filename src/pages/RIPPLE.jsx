@@ -25,7 +25,9 @@ const RIPPLE = () => {
                 );
               }}
             >
+              <span className="top">
               copy address
+              </span>
             </button>
           </div>
         </div>

@@ -26,8 +26,9 @@ const BNB = () => {
                   "bnb1fw7hu4p2n04u7e23pwemykuy7dq6anwgmugfdw"
                 );
               }}
-            >
-              copy address
+            ><span className="top">
+            copy address
+            </span>
             </button>
           </div>
         </div>

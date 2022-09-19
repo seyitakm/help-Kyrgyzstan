@@ -51,13 +51,26 @@
   font-size: 20px;
 }
 .button {
-  background: blueviolet;
   color: aliceblue;
   font-size: 20px;
   font-family: "Courier New", Courier, monospace;
   border-radius: 20px;
   border: none;
-  width: 220px;
-  height: 60px;
   margin-right: 40px;
+  cursor: pointer;
+}
+
+.top {
+  display: block;
+  padding: 15px 65px;
+  border-radius: 15px;
+  font-size: 20px;
+  background: blueviolet;
+  color: white;
+  transform: translateY(-6px);
+
+}
+
+.button:active .top {
+  transform: translateY(-2px);
 }

@@ -27,7 +27,9 @@ const ETHER = () => {
                 );
               }}
             >
+              <span className="top">
               copy address
+              </span>
             </button>
           </div>
         </div>

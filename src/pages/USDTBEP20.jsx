@@ -27,7 +27,9 @@ const USDTBEP20 = () => {
                 );
               }}
             >
+              <span className="top">
               copy address
+              </span>
             </button>
           </div>
         </div>
