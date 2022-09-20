@@ -19,7 +19,9 @@ const BITCOIN = () => {
             />
             <h3>Bitcoin Address</h3>
             <p className="asdf pishka">
-              bc1qav7emgpgcejejuytk8xrkdmn4a8gw4cwlv342w
+              bc1qav7emgpgcejejuytk8x
+              <br />
+              rkdmn4a8gw4cwlv342w
             </p>
             <button
               className="asdf button"

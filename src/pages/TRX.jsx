@@ -29,7 +29,11 @@ const TRX = () => {
               alt="icon"
             />
             <h3>TRX Address</h3>
-            <p className="asdf pishka">TEAGNjruQU2YyDv69qraytuWf36fjHnfBA</p>
+            <p className="asdf pishka">
+              TEAGNjruQU2YyDv69qra
+              <br />
+              ytuWf36fjHnfBA
+            </p>
             <button
               className="asdf button"
               onClick={() => {
