@@ -17,7 +17,9 @@ const BNB = () => {
             />
             <h3>BNB Address</h3>
             <p className="asdf pishka">
-              bnb1fw7hu4p2n04u7e23pwemykuy7dq6anwgmugfdw
+              bnb1fw7hu4p2n04u7e23pw
+              <br />
+              emykuy7dq6anwgmugfdw
             </p>
             <button
               className="asdf button"

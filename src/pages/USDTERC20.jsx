@@ -17,7 +17,9 @@ const USDTERC20 = () => {
             />
             <h3>USDT (ERC20)</h3>
             <p className="asdf pishka">
-              0xaC4bCb4142286332430FDfa63d1fdaC7062285A3
+              0xaC4bCb4142286332430F
+              <br />
+              Dfa63d1fdaC7062285A3
             </p>
             <button
               className="asdf button"

@@ -16,7 +16,11 @@ const RIPPLE = () => {
               alt="icon"
             />
             <h3>Ripple Address</h3>
-            <p className="asdf pishka">rhh7ytELXgTRvai2FzDENYffFSfEaHK5v9</p>
+            <p className="asdf pishka">
+              rhh7ytELXgTRvai2FzDENY
+              <br />
+              ffFSfEaHK5v9
+            </p>
             <button
               className="asdf button"
               onClick={() => {

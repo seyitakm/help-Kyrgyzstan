@@ -18,7 +18,11 @@ const USDTTRC20 = () => {
               alt="icon"
             />
             <h3>USDT (TRC20)</h3>
-            <p className="asdf pishka">TEAGNjruQU2YyDv69qraytuWf36fjHnfBA</p>
+            <p className="asdf pishka">
+              TEAGNjruQU2YyDv69qr
+              <br />
+              aytuWf36fjHnfBA
+            </p>
             <button
               className="asdf button"
               onClick={() => {
