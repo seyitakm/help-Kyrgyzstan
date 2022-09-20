@@ -14,6 +14,7 @@ body {
 .donateP {
   font-family: "Oxygen";
 }
+
 @media (max-width: 700px) {
   .donateH2 {
     font-size: 30px;
@@ -21,5 +22,10 @@ body {
   }
   .donateP {
     font-size: 15px;
+  }
+}
+@media (max-width: 600px) {
+  .visa {
+    display: none;
   }
 }

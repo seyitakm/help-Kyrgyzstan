@@ -97,4 +97,7 @@
   .officialImg img {
     width: 400px;
   }
+  .donateH2 .visa {
+    display: none;
+  }
 }

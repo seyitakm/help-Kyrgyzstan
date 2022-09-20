@@ -28,7 +28,7 @@ const Homepage = () => {
           marginTop: "5%",
         }}
       >
-        <h2 className="donateH2">Donate via VISA</h2>
+        <h2 className="donateH2 visa">Donate via VISA</h2>
       </div>
       <Official />
     </div>
