@@ -36,7 +36,6 @@
   justify-content: center;
   align-items: center;
 }
-
 .asdf {
   margin-top: 20px;
   margin-left: 70px;
@@ -51,13 +50,91 @@
   font-size: 20px;
 }
 .button {
-  background: blueviolet;
   color: aliceblue;
   font-size: 20px;
   font-family: "Courier New", Courier, monospace;
   border-radius: 20px;
   border: none;
-  width: 220px;
-  height: 60px;
   margin-right: 40px;
+  cursor: pointer;
+}
+
+.top {
+  display: block;
+  padding: 15px 65px;
+  border-radius: 15px;
+  font-size: 20px;
+  background: blueviolet;
+  color: white;
+  transform: translateY(-6px);
+}
+
+.button:active .top {
+  transform: translateY(-2px);
+}
+.blockchain {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  padding: 15px;
+  margin-top: 2%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+.blockchain h3 {
+  font-family: "Oxygen";
+  font-weight: 700;
+}
+.blockchain a button {
+  font-family: "Oxygen";
+  font-weight: 600;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+}
+@media (max-width: 1000px) {
+  .cardDetails {
+    height: 600px;
+  }
+}
+@media (max-width: 600px) {
+  .imgDetails h3 {
+    font-size: 20px;
+    margin-left: 0;
+  }
+  .imgDetails p {
+    font-size: 15px;
+    margin-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .imgDetails .button {
+    width: 200px;
+    /* height: 100px; */
+    margin-right: 0;
+  }
+  .asdf {
+    margin-left: 0;
+  }
+  .top {
+    padding: 0;
+  }
+  .cardDetails img {
+    width: 200px;
+    height: 200px;
+  }
+  .cardDetails {
+    /* width: 90%; */
+  }
+  .blockchain {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .blockchain h3 {
+    font-size: 15px;
+    padding: 10px;
+  }
 }

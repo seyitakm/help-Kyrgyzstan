@@ -27,9 +27,15 @@ const USDTTRC20 = () => {
                 );
               }}
             >
-              copy address
+              <span className="top">copy address</span>
             </button>
           </div>
+        </div>
+        <div className="blockchain">
+          <h3>Check this account address on blockchain</h3>
+          <a href="https://tronscan.org/#/address/TEAGNjruQU2YyDv69qraytuWf36fjHnfBA">
+            <button>Check</button>
+          </a>
         </div>
       </div>
     </div>

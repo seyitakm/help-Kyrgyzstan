@@ -63,4 +63,38 @@
 .sourceAll ul li {
   list-style: none;
   font-family: "Cabin";
+  font-weight: 700;
+}
+.sourceAll ul li a {
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.officialImg img {
+  width: 40%;
+}
+.officialImg {
+  display: flex;
+  justify-content: space-between;
+}
+.mainCard1 {
+  margin-top: 1%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 600px) {
+  .reports {
+    width: 90%;
+  }
+}
+@media (max-width: 600px) {
+  .mainCard1 {
+    display: none;
+  }
+  .officialImg img {
+    width: 400px;
+  }
 }

@@ -22,11 +22,11 @@ const Navbar = () => {
         </div>
 
         <div className="nav-links">
-          <a target="_blank" onClick={() => navigate("/bitcoin")}>
-            crypto
+          <a target="_blank" onClick={() => navigate("/")}>
+            Home
           </a>
-          <a href="#" target="_blank">
-            visa
+          <a href="https://prayforkyrgyzstan.org/" target="_blank">
+            Donate cash
           </a>
         </div>
       </div>

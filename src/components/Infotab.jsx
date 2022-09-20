@@ -1,9 +1,9 @@
 import React from "react";
 import "./Styles/Infotab.css";
-
+import pic from "./icons/edited.png";
 const Infotab = () => {
   return (
-    <div className="infoTabMain">
+    <div className="infoTabMain" style={{ backgroundImage: { pic } }}>
       <div className="infoTab">
         <h1>What's happening in Batken, Kyrgyzstan?</h1>
         <p>
@@ -24,6 +24,11 @@ const Infotab = () => {
           crimes committed by the Tajik military on the territory of the Kyrgyz
           Republic were captured. Kyrgyzstan declared September 19 a day of
           national mourning.
+        </p>
+        <p style={{ color: "red" }}>
+          Your donations will be directed to the victims of Batken who need
+          financial assistance. As well as their houses, schools, markets and
+          others were destroyed by the Tajik army, they must be restored
         </p>
       </div>
     </div>

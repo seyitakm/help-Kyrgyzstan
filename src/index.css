@@ -14,3 +14,12 @@ body {
 .donateP {
   font-family: "Oxygen";
 }
+@media (max-width: 700px) {
+  .donateH2 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .donateP {
+    font-size: 15px;
+  }
+}

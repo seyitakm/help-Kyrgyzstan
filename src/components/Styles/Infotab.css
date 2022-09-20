@@ -25,3 +25,11 @@
   text-align: center;
   font-family: "Cabin";
 }
+@media (max-width: 400px) {
+  .infoTab h1 {
+    font-size: 35px;
+  }
+  .infoTab p {
+    font-size: 16px;
+  }
+}

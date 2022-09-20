@@ -29,9 +29,15 @@ const BITCOIN = () => {
                 );
               }}
             >
-              copy address
+              <span className="top">copy address</span>
             </button>
           </div>
+        </div>
+        <div className="blockchain">
+          <h3>Check this account address on blockchain</h3>
+          <a href="https://www.blockchain.com/btc/address/bc1qav7emgpgcejejuytk8xrkdmn4a8gw4cwlv342w">
+            <button>Check</button>
+          </a>
         </div>
       </div>
     </div>

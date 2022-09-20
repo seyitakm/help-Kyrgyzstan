@@ -1,10 +1,11 @@
 import React from "react";
 import batkenVisa from "../components/icons/BatkenBeneficiary.jpg";
 import batkenVisa2 from "../components/icons/BatkenBeneficiary2.jpg";
+import "./Styles/Sources.css";
 
 const Official = () => {
   return (
-    <div className="mainCard">
+    <div className="mainCard1">
       <div
         style={{
           display: "flex",
@@ -21,9 +22,10 @@ const Official = () => {
             // flexDirection: "row",
             justifyContent: "space-between",
           }}
+          className="officialImg"
         >
-          <img style={{ width: "40%" }} src={batkenVisa} alt="b" />
-          <img style={{ width: "40%" }} src={batkenVisa2} alt="b" />
+          <img src={batkenVisa} alt="b" />
+          <img src={batkenVisa2} alt="b" />
         </div>
 
         <div style={{ marginTop: "2%", padding: "25px" }}>

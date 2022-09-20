@@ -27,9 +27,15 @@ const USDTBEP20 = () => {
                 );
               }}
             >
-              copy address
+              <span className="top">copy address</span>
             </button>
           </div>
+        </div>
+        <div className="blockchain">
+          <h3>Check this account address on blockchain</h3>
+          <a href="https://etherscan.io/address/0xaC4bCb4142286332430FDfa63d1fdaC7062285A3">
+            <button>Check</button>
+          </a>
         </div>
       </div>
     </div>
